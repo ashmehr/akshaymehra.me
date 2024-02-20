@@ -8,6 +8,22 @@ function App() {
 
   return (
     <>
+    <header>
+      <ul>
+        <li>
+          <a target="_blank">Home</a>
+        </li>
+        <li>
+          <a target="_blank">About</a>
+        </li>
+        <li>
+          <a target="_blank">Projects</a>
+        </li>
+        <li>
+          <a target="_blank">Contact</a>
+        </li>
+      </ul>
+    </header>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

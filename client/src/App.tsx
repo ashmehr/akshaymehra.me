@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import loremIpsum from './assets/loremipsum';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,39 +13,35 @@ function App() {
     <header>
       <ul>
         <li>
-          <a target="_blank">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a target="_blank">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a target="_blank">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a target="_blank">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+
+    <div id="home">
       <h1>Akshay Mehra</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <a href="https://vitejs.dev" target="_blank">
+        <img src={viteLogo} className="logo" alt="Vite logo" />
+      </a>
+      <a href="https://react.dev" target="_blank">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+      </a>
+    </div>
+    
+    <div id="about">
+      About! {loremIpsum}
+    </div>
+    <div id="projects"> Projects! {loremIpsum}</div>
+    <div id="contact"> Contact! {loremIpsum}</div>
     </>
   )
 }

@@ -30,6 +30,21 @@
   z-index: 0;
 }
 
+.Header {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50rem;
+}
+
+.NameHeader {
+  font-size: 4.5em;
+}
+
+.SubHeader {
+  margin-top: -3rem;
+  margin-right: 11rem;
+}
+
 @keyframes blink {
   0%, 100% {
     color: transparent;

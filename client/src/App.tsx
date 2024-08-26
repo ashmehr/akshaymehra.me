@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <div className="BlurCircle"></div>
-    <div id="Home">
+    <div className="Header">
       <h1 className="NameHeader">Akshay Mehra
         <span id="caret">|</span></h1>
       <h2 className="SubHeader">Software Engineer | Manager</h2>
@@ -18,7 +18,7 @@ function App() {
         <a href="#about">About</a>
       </div>
       <div className="Button">
-        <a href="#projects">Projects</a>
+        <a href="#projects">Blog</a>
       </div>
       <div className="Button">
         <a href="#contact">Contact</a>
